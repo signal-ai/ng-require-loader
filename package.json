@@ -1,0 +1,12 @@
+{
+  "name": "ng-require",
+  "version": "0.1.0",
+  "description": "Automatically require angular module dependencies",
+  "dependencies": {
+    "esprima": "^2.7.1",
+    "estraverse": "^4.1.1",
+    "glob": "^6.0.4",
+    "loader-utils": "^0.2.12",
+    "ramda": "^0.19.1"
+  }
+}
