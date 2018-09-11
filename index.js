@@ -30,7 +30,7 @@ function getAngularModuleDependencies(source) {
 }
 
 module.exports = function (source) {
-    this.cacheable = true;
+    this.cacheable();
 
     var query = loaderUtils.parseQuery(this.query);
     var dependencies = getAngularModuleDependencies(source);
