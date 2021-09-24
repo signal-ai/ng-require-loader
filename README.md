@@ -1,12 +1,15 @@
-##What is this?
+## What is this?
+
+**This loader is no longer maintained**
+
 This webpack loader reads your angular module dependencies and requires the files that define those modules.
 
 It accepts two arguments:
 
-####src
+#### src
 This tells the loader which files to analyse for module definitions
 
-####alias
+#### alias
 This tells the loader which module names map to which vendor locations
 
 ## Example
